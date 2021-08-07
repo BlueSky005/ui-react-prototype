@@ -1,0 +1,69 @@
+
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    // FOOTER CSS
+
+    .footerCompanyContainer { flex-basis: 60%; }
+
+    .footerEmailContainer { flex-basis: 40%;  }
+
+    .workDetailsContainer { margin-top: 2rem; flex-basis: 35%; }
+
+    .actionOptions { margin-top: 2rem; flex-basis: 32%; }
+
+    .socialMediaOptions {  margin-top: 2rem; flex-basis: 32%; }
+
+    #querySection { padding: 6rem; }
+
+    #navMenu {
+        margin-right: 2rem;
+      }
+
+      #logo { margin-left: 2rem; }
+
+        // TESTIMONIAL
+
+        .testimonialIcon {
+            font-size: 2rem;
+            margin-right: 2rem;
+        }
+
+        #testimonialSection {
+            justify-content: space-around;
+            height: 14rem;
+        }
+
+            .testimonialComponent {
+                width: 40%;
+                margin-bottom: 1rem;
+            }
+
+            #overlayImg {  height: 23.7rem; }
+
+
+            #overlayTxtSection {  width: 70%;}
+
+            #aboutMeImg { margin-top: -5rem; }
+
+            #aboutMeLeft {
+                padding: 1rem;
+                width: 50%;
+            }
+
+            #aboutMeRight {
+                padding: 1rem;
+                width: 50%;
+            }
+
+            #aboutMeRow { margin-top: 15rem; }
+
+            #aboutMeCaption { text-align: left; }
+  }
+
+
+

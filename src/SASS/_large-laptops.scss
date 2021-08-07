@@ -1,0 +1,70 @@
+
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    // FOOTER CSS
+
+    .footerCompanyContainer {  flex-basis: 30%; }
+
+    .footerEmailContainer { flex-basis: 25%; }
+
+    .workDetailsContainer { flex-basis: 15%; }
+
+    .actionOptions { flex-basis: 15%; }
+
+    .socialMediaOptions { flex-basis: 15%; }
+
+    #querySection {  padding: 6rem;  }
+
+    .footer { height: 15rem; }
+
+    #navMenu {
+      margin-right: 2rem;
+    }
+
+    #logo { margin-left: 2rem; }
+
+    // ABOUT ME
+
+    #aboutMeRow { margin-top: 11rem; }
+
+    .aboutMeImg {  position: absolute; }
+
+    #aboutMeImg {
+
+      margin-top: -13rem;
+  }
+
+    #aboutMeLeft { flex-basis: 50%; }
+
+     #aboutMeRight {
+
+         flex-basis: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     #aboutMeCaption { text-align: left; }
+
+     // TESTIMONIAL
+
+    .testimonialIcon {
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+
+    #testimonialSection {
+        justify-content: space-around;
+        height: 11rem;
+    }
+
+    #overlayImg { height: 27rem; }
+
+    #overlayTxtSection {  width: 40%; }
+
+  }

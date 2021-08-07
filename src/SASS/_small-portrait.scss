@@ -1,0 +1,53 @@
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    // FOOTER CSS
+
+    .footerCompanyContainer { flex-basis: 100%; }
+
+    .footerEmailContainer { flex-basis: 100%; }
+
+    .workDetailsContainer { margin-top: 1rem; flex-basis: 50%; }
+
+    .actionOptions { margin-top: 1rem; flex-basis: 50%; }
+
+    .socialMediaOptions { margin-top: 2rem; flex-basis: 50%;  }
+
+    #querySection {  padding: 2rem; }
+
+ // TESTIMONIAL
+
+ .testimonialIcon {
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+
+#testimonialSection {
+
+    height: 20rem;
+    justify-content: flex-start;
+}
+
+.testimonialComponent {
+    margin-left: 20%;
+    margin-top: 1rem;
+}
+
+#aboutMeRow { margin-top: 20rem; }
+
+.aboutMeImg { margin-top: 3.3rem; }
+
+.aboutMeContent { padding: 3rem; }
+
+#aboutMeCaption { text-align: center; }
+
+#overlayImg { height: 18rem; }
+
+#overlayTxtSection { width: 90%; }
+
+}
+
